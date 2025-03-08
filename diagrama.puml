@@ -1,4 +1,4 @@
-# Practicas
+@startuml
 class Sonic
 class Personaje
 class Villano
@@ -46,3 +46,4 @@ Habilidad "1" <|-- "1" EscudoElemental
 Sonic "1" o-- "*" Habilidad
 Villano "1" o-- "*" Plataforma
 Juego  *--  Personaje
+@enduml
