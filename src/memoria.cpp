@@ -13,6 +13,8 @@ public:
         otro= true; 
 
     }
+voil Ejecutar(){
+    cout<<"Ejecutando Chorizo"<<endl;
 
 
 };
@@ -104,10 +106,17 @@ int main(int argc, char const *argv[])
     Chorizo* punteroCXX = new Chorizo();
     delete punteroCXX;
 
+    
+    // Indireccion vs operador 
+    // Indireccion
+    (*punteroCXX).Ejecutar();
+    // Operador ->
+    punteroCXX->Ejecutar();
 
 
 
 
+    
 
         return 0;
 }
