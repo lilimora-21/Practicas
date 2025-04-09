@@ -9,3 +9,10 @@ bin/memoria : src/memoria.cpp
 
 memoria : bin/memoria 
 	./bin/memoria 
+
+bin/archivos: src/archivos.cpp
+	g++ src/archivos.cpp -o bin/archivos 
+
+archivos : bin/archivos 
+	./bin/archivos
+	
