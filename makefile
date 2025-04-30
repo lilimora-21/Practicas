@@ -20,4 +20,5 @@ bin/binario : src/binario.cpp
 	g++ src/binario.cpp -o bin/binario
 
 binario : bin/binario 
-		./bin/binario 
+	./bin/binario
+	
